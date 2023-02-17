@@ -4,8 +4,9 @@ import '@nomiclabs/hardhat-waffle'
 import 'hardhat-typechain'
 import 'hardhat-watcher'
 
+const version = '0.8.17'
 const LOW_OPTIMIZER_COMPILER_SETTINGS = {
-  version: '0.7.6',
+  version: version,
   settings: {
     evmVersion: 'istanbul',
     optimizer: {
@@ -19,7 +20,7 @@ const LOW_OPTIMIZER_COMPILER_SETTINGS = {
 }
 
 const LOWEST_OPTIMIZER_COMPILER_SETTINGS = {
-  version: '0.7.6',
+  version: version,
   settings: {
     evmVersion: 'istanbul',
     optimizer: {
@@ -33,7 +34,7 @@ const LOWEST_OPTIMIZER_COMPILER_SETTINGS = {
 }
 
 const DEFAULT_COMPILER_SETTINGS = {
-  version: '0.7.6',
+  version: version,
   settings: {
     evmVersion: 'istanbul',
     optimizer: {

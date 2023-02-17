@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity =0.7.6;
-
-import '@openzeppelin/contracts/drafts/ERC20Permit.sol';
+pragma solidity ^8.0.0;
+import '@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol';
 
 contract TestERC20 is ERC20Permit {
     constructor(uint256 amountToMint) ERC20('Test ERC20', 'TEST') ERC20Permit('Test ERC20') {
