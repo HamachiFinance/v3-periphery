@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^8.0.0;
+pragma solidity ^0.8.0;
 
 library TokenRatioSortOrder {
     int256 constant NUMERATOR_MOST = 300;
